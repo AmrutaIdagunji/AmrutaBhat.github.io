@@ -1,1 +1,282 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Amruta Bhat</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="./index.html" class="link">AB.</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#workExperience">Work Experience</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <table width="100%">
+        <tr>
+          <td width="30%">
+            <div style="align:center">
+              <img src="ProfilePictureCropped.png" alt="Italian Trulli" width="250" height="250" style="border-radius: 125px;"> 
+            </div>
+          </td>
+          <td width="70%">
+
+      <!-- About -->
+      <div class="about center">
+        <h2>Hi, I am <span class="about__name">Amruta Bhat.</span></h2>
+        <h3 class="about__role">Data Science Graduate Student</h3>
+        <p class="about__desc">
+          Data Science enthusiast with strong knowledge of statistics, programming in Python, R and SQL. 
+          Nearly five years of experience in data science in PharmSci and Healthcare domain. 
+          Currently pursuing Masters of Science with a focus in Data Science from University at Buffalo to refine and enhance my skill set.
+          Looking for opportunities to use my skills in a growth-oriented organization.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1WDhhM6K8NoTH0idAXndy2WDa02qXm1fc/view?usp=share_link">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/AmrutaIdagunji"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/amruta-bhat-b25921a9/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+          </td>
+        </tr>
+      </table>
+
+
+
+
+      <!-- Work exp -->
+      <section id="workExperience" class="section projects">
+        <h2 class="section__title">Work Experience</h2>
+        <div class="timeline">
+            <div class="container left">
+              <div class="project">
+                <a href="./workExperience.html#RA">
+                  <h4>Research Assistant</h4>
+                  <h6>SUNY Research Foundation</h6>
+                  <h7>Sep 2023 - Present</h7>
+                </a>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="project">
+                <a href="./workExperience.html#DS">
+                  <h4>Data Scientist</h4>
+                  <h6>MResult Services</h6>
+                  <h7>Jun 2021 - Dec 2022</h7>
+              </a>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="project">
+                <a href="./workExperience.html#DA">
+                  <h4>Data Analyst</h4>
+                  <h6>IQVIA</h6>
+                  <h7>Aug 2018 - Jun 2021</h7>
+              </a>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Anomaly Detection</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>RNN and LSTM</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Image (ImageNet) classification</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- https://worditout.com/word-cloud/create -->
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">R</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">MATLAB</li>
+          <li class="skills__list-item btn btn--plain">Spotfire</li>
+          <li class="skills__list-item btn btn--plain">Tableau</li>
+          <li class="skills__list-item btn btn--plain">Power BI</li>
+          <li class="skills__list-item btn btn--plain">Dataiku DSS</li>
+          <li class="skills__list-item btn btn--plain">Javascript</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">HTML/CSS</li>
+          <li class="skills__list-item btn btn--plain">snakemake</li>
+          <li class="skills__list-item btn btn--plain">bash</li>
+          <li class="skills__list-item btn btn--plain">Slurm</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:amrutabhat27@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/rajshekhar26/cleanfolio-minimal" class="link footer__link">
+        Created By rajshekhar26
+      </a> 
+      </br>Modified by Amruta Bhat
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

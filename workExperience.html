@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Amruta Bhat</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="./index.html" class="link">Amruta Bhat</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="./index.html#workExperience">Work Experience</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="./index.html#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="./index.html#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="RA">
+                <h4>Research Assistant</h4>
+                <h5>SUNY Research Foundation (Sep 2023 - Present)</h5>
+                <h6 style="padding-left: 20px;">Dental Lab (Sep 2023 - Present)</h6> 
+                <div style="padding-left: 40px;">
+                  <b>Description:</b> 
+                  <div style="padding-left: 20px;">Kauffman Lab mainly focuses on understanding how viruses that infect bacteria interact with their hosts. As a student with strong Data Science baskground, I help the lab with Bio-informatics.</div>
+                  <b>Skills:</b> 
+                  <div style="padding-left: 20px;">Python, Shell script, snakemake, Slurm workload manager, R</div>
+                    <b>Responsibilities:</b>
+                    <div style="padding-left: 20px;">
+                        <li>Assist in R, Python, Shell scripts for Bio-informatics.</li>
+                        <li>Working towards predicting and annotating phages in drylab.</li>
+                        <li>Created pipelines using snake-make and shell scripts to download bacterial genomes from <a href="https://www.homd.org">HOMD</a>, <a href="https://github.com/apcamargo/genomad">genomad</a> to predict viral and plasmid gene sequences and <a href="https://github.com/gbouras13/pharokka">pharokka</a>  to annotate the predicted genes.</li>
+                        <li>Assessed different tools available for gene-predictions and annotations</li>
+                        <li><i><u>
+                            <a href="https://kauffmanlab.org/">Click here to know more about the lab.</a>
+                        </u>
+                        </i></li>
+                    </div>
+                </div>
+                <br>
+                <h6 style="padding-left: 20px;">PharmSci Lab (Jan 2024 - Present)</h6>
+                <div style="padding-left: 40px;">
+                  <b>Description:</b>
+                  <div style="padding-left: 20px;">Working on a pharmaceutical sciences research project on human aging that leverages machine learning using the large <a href="https://www.cdc.gov/nchs/nhanes/index.htm">National Health and Nutrition Examination Survey (NHANES)</a> data to delineate biomarkers of aging.</div>
+
+                  <b>Skills:</b> 
+                  <div style="padding-left: 20px;">Machine learning, Feature Engineering, Hyper-parameter Tuning, Bayesian Networks, Survival Analysis, R, Python</div>
+                  
+                  <b>Responsibilities:</b>
+                  <div style="padding-left: 20px;">
+                    <li>Preprocess the data to handle inconsistent column names, format mismatches, missing columns, handling of missing data, outliers, encoding categorical variables and normalization of continuous. </li>
+                    <li>Feature Engineering using domain knowledge to select relevant features</li>
+                    <li>Modeling with a robust ensemble learning such as XGBoost. The best model hyperparameters will be identified on the preprocessed data by applying grid search with the cross-validation technique. Model performance will be assessed using appropriate metrics. The biological implications of modeling results will be compared to findings from the literature.</li>
+                  </div>
+                </div>
+              </div>
+
+            <br>
+            <br>
+
+            <div id="DS">
+                <h4>Data Scientist</h4>
+                <h5>MResult Services (Jun 2021 - Dec 2022)</h5>
+                <div style="padding-left: 40px;">
+                  <b>Description:</b> 
+                  <div style="padding-left: 20px;">As a Data Scientist at MResult, I was able to work on different uses cases on Natural Langauge Processing using Transformers, customer behaviour analysis etc.
+                  </div>
+                
+                  <b>Skills:</b> 
+                  <div style="padding-left: 20px;">Natural Langauge Processing, Sentiment Analysis, Clustering, Customer behaviour analysis, Python, SQL, Power BI, Spotfire.</div>
+
+                    <b>Responsibilities:</b>
+                    <div style="padding-left: 20px;">
+                        <li>Modeled K-means clustering algorithm to cluster customers based on transactions for a Bank.</li>
+                        <li>Fine tuned RoBERTa model and SapBERT model from HuggingFace to classify medical product reviews into 6 different categories and document summarization.</li>
+                        <li>Achieved higher accuracy using hyper parameter tuning like Grid Search CV and Randomized CV.</li>
+                        <li>Fabricated Principal Component Analysis for feature engineering.</li>
+                        <li>Applied Boosting techniques like XGBoost, Light GBM and expandable boosting to improve the accuracy.</li>
+                        <li>Imported data from multiple sources, like Redshift, Sharepoint and MySQL, and modeled data within Spotfire for analysis.</li>
+                        <li>Created several out-of-the-box solutions like exporting to PPT on demand, writing data back to Sharepoint, reading data from Sharepoint, CRUD operations on Excel files and more. Awarded Pat on Back and Bravo awards.</li>
+                        <li>Assisted junior analysts, guided new joiners, interviewed candidates and lead over three projects.</li>
+                    </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div id="DA">
+                <h4>Data Analyst</h4>
+                <h5>IQVIA (Aug 2018 - Jun 2021)</h5>
+                <div style="padding-left: 20px;">
+                    <h6>Next-Gen Clinical Development (Dec 2018 - Sep 2020)</h6>
+                    <div style="padding-left: 20px;">
+                        <b>Description:</b> 
+                        <div style="padding-left: 20px;">This project shows the Facilities and Providers Information associated with Studies in different countries.</div>
+                        
+                        <b>Skills:</b> 
+                        <div style="padding-left: 20px;">Python, HTML/CSS/JS/jQuery UI, Hive, Hadoop, Oracle DB, PostgreSQL, MongoDB.</div>
+
+                        <b>Responsibilities:</b>
+                        <div style="padding-left: 20px;">
+                            <li>Developed iron python scripts to pull data from multiple data sources and store them to Spotfire library as SBDF files, called caching. This was done to improve the performance of the report.</li>
+                            <li>Automated the caching process to refresh the data from multiple data sources on daily basis.</li>
+                            <li>Developed iron python script using .NET APIs to pull data from REST APIs.</li>
+                            <li>Developed iron python scripts to reset marking and filtering within the Dashboard.</li>
+                            <li>Developed iron python script to read the data from SBDf files and perform transformations - add rows and add column settings (table joins).</li>
+                        </div>
+                    </div> <br>
+                    
+                    <h6>Biotech/Infosario Analytics (Dec 2019 - Mar 2020 | Jan 2021 - Jun 2021)</h6>
+                    <div style="padding-left: 20px;">
+                        <b>Description:</b> 
+                        <div style="padding-left: 20px;">This project is integrated with IQVIA portal Infosario Analytics - showing different metrics like Protocol Deviation, Adverse events, Patient status, Enrolment status and more for all the studies to the clients.</div>
+                      
+                        <b>Skills:</b> 
+                        <div style="padding-left: 20px;">Google Charts, Oracle SQL, Spotfire.</div>
+
+                        <b>Responsibilities:</b> <br>
+                        <div style="padding-left: 20px;">
+                            <li>Worked on integrating Google charts with Spotfire reports using a in-house platform called Infosario Analytics.</li>
+                            <li>Developed multiple Dashboards using google charts and Spotfire. Worked on different charts - Bar chart, Line chart, Combination chart, Pie chart, Tree map, Scatter plot etc.</li>
+                            <li>Worked on complex SQL queries to develop google charts and Spotfire reports.</li>
+                            <li>In this project, the challenging task was to meet the deadline as there were several stories to finish in short period of time. This project, really tested my efficiency and time management skills.</li>
+                            <li>Worked on Flex Views which allows users to build visualisations of their choice in a Spotfire Report from scratch. This is being built using combination of HTML/CSS/JS and iron python to make it possible.</li>
+                        </div>
+                    </div> <br>
+                    
+                    <h6>Centralised Monitoring - RMW (Apr 2020 - May 2020)</h6>
+                    <div style="padding-left: 20px;">
+                        <b>Description:</b> 
+                        <div style="padding-left: 20px;">This project helps the business users to take decisions based on Key operations such as RAMP Cycle time and approval for a Study.</div>
+                        <b>Skills:</b> 
+                        <div style="padding-left: 20px;">Python/R/OracleSQL.</div>
+                        <b>Responsibilities:</b> <br>
+                        <div style="padding-left: 20px;">
+                            <li>Developed simple Dashboard using Spotfire that included basic charts and integrated it with Appian.</li>
+                            <li>With combination of R and iron python scripts, called REST API s from Spotfire to authenticate users.</li>
+                            <li>Developed iron python script to export the results in the Dashboard as Excel files.</li>
+                            <li>Using Configuration block within the URL, passed parameters from Appian to Spotfire to customise the report based on user selection in Appian UI.</li>
+                        </div>
+                    </div> <br>
+
+                    <h6>Awads and Other Activites</h6>
+                    <div style="padding-left: 20px;">
+                        <li>Resource Forecast Dashboard - Using Spotfire Automation services Job Builder, I developed a Dashboard to forecast the allocation of the resources to different project across the Business Unit. This helps Line Managers manage and plan their resources throughout the year efficiently.</li>
+                        <li>Timesheet Compliance Dashboard - Using Spotfire Analyst and iron python scripting, developed a Dashboard that shows the Number of hours filled by each employee to their respective line managers and an Automation Job that triggers emails to employees who have partially filled timesheet by the end of the week.</li>
+                        <li>IQVIA Hackathon’18 - Presented a POC on efficient Desk Allocation system, that helps employees book a desk/conference room for a day/weeks/months or release a seat or swap seats with colleagues. This was developed using Spotfire analyst/Oracle DB. The idea was awarded as one of best 5 ideas.</li>
+                        <li>IQVIA Hackathon’19 - Presented a POC on Patient360 that aids Doctors/Pharmacy's to look at 360 degree view of a patient’s health while consulting. The data would be gathered from key data sources like Socio-economic behavioural data, electronic medical records, medical/wearable devices, Prescription claims, Patient Support system, lab reports, clinical trials, health insurance, patient registry. Technologies used - Hive/Hadoop/Stream Sets/Spotfire/Kafka/Python. This idea made it to top 10.</li>
+                        <li>IQVIA Hackatho’20 - Used SIR model that helps Hospitals/communities to efficiently manage Beds/ICU/Ventilators during a pandemic.</li>
+                        <li>Developed several Dashboards using Box Plot, Line Chart, Combination Chart, tree map, pie chart and Calendar visualisations in <u><i><a href="https://public.tableau.com/profile/amruta5196#!/">Tableau.</a></i></u></li>
+                        <li>Used Power BI to develop several visuals like Decomposition Tree, Donut Chart, Map chart, Bar/Line chart, waterfall chart etc. <u><i><a href="https://github.com/AmrutaIdagunji/Power-BI">Github</a></i></u></li>
+                        <li>Provided training on Iron python scripting for Spotfire including Indexing, Marking, Library Manipulation, Importing/Exporting Data, Creating Visuals etc. <u><i><a href="https://github.com/AmrutaIdagunji/Iron-python-training">Github</a></i></u></li>
+    
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/rajshekhar26/cleanfolio-minimal" class="link footer__link">
+        Created By rajshekhar26
+      </a> 
+      </br>Modified by Amruta Bhat
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
